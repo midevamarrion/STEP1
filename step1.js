@@ -57,7 +57,7 @@ function getTotalItems() {
 
 //Write a function to find the item with the lowest stock quantity.
 function findLowestStockItem() {
-  let lowestStock = Infinity;
+  let lowestStock = 0;
   let lowestStockItem = '';
   for (let i = 0; i < inventoryItems.length; i++) {
     if (stockQuantities[i] < lowestStock) {
